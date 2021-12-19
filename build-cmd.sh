@@ -30,11 +30,10 @@ SOURCE_DIR="THREE.js"
 
 build=${AUTOBUILD_BUILD_ID:=0}
 
-cat "${SOURCE_DIR}/package.json" | python -c "import sys, json; print json.load(sys.stdin)['version']" > "$stage/VERSION.txt"
+cat "${SOURCE_DIR}/package.json" | python -c "import sys, json; print(json.load(sys.stdin)['version'])" > "$stage/VERSION.txt"
 
 case "$AUTOBUILD_PLATFORM" in
-    windows* | darwin64)
-
+    *)
         mkdir -p "$stage/js"
         mkdir -p "$stage/LICENSES"
 
