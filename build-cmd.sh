@@ -42,10 +42,4 @@ case "$AUTOBUILD_PLATFORM" in
 
         cp "${SOURCE_DIR}/LICENSE.txt" "$stage/LICENSES/THREEJS_LICENSE.txt"
     ;;
-
-    "linux")
-    ;;
-
-    "linux64")
-    ;;
 esac
