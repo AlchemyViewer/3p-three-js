@@ -4,7 +4,7 @@
     <key>package_description</key>
     <map>
       <key>canonical_repo</key>
-      <string>https://git.alchemyviewer.org/alchemy/thirdparty/3p-three_js</string>
+      <string>https://github.com/AlchemyViewer/3p-three_js</string>
       <key>license</key>
       <string>MIT</string>
       <key>license_file</key>
@@ -12,7 +12,7 @@
       <key>name</key>
       <string>threejs</string>
       <key>copyright</key>
-      <string>Copyright © 2010-2021 three.js authors</string>
+      <string>Copyright (c) 2010-2021 three.js authors</string>
       <key>platforms</key>
       <map>
         <key>common</key>
